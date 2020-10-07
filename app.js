@@ -8,3 +8,7 @@ $('.intro').css('color', 'red');
 
 $('.shopping-list').css('background', 'lightblue');
 $('.shopping-list').append('<li>Oranges</li>');
+
+$('.add-btn').on('click', function(e) {
+    $('.shopping-list').append(input.value);
+})
