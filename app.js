@@ -6,4 +6,5 @@ Andrews-MacBook-Air:WebApp_Builder andrewrea$ git push -u origin main */
 
 $('.intro').css('color', 'red');
 
-$('li').parent().css('background', 'purple');
+$('.shopping-list').css('background', 'lightblue');
+$('.shopping-list').append('<li>Oranges</li>');
